@@ -1,0 +1,45 @@
+{
+  "name": "repl4devs",
+  "version": "1.0.0",
+  "description": "is a REPL for developers in nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfloresuth/repl4devs.git"
+  },
+  "devDependencies": {
+    "mocha":"latest",
+    "chai":"latest",
+    "gulp":"latest",
+    "gulp-typescript":"latest",
+    "typescript":"latest"
+  },
+  "dependencies": {
+    "colors":"latest",
+    "express":"latest",
+    "body-parser":"latest",
+    "mysql":"latest",
+    "knex":"latest",
+    "bookshelf":"latest",
+    "atpl":"latest",
+    "sqlite3":"latest",
+    "pg":"latest",
+    "bluebird":"latest"
+  },
+  "keywords": [
+    "repl",
+    "REPL",
+    "developers",
+    "nodejs"
+  ],
+  "author": "Gustavo Adolfo Flores González (@darkuskyo)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gfloresuth/repl4devs/issues"
+  },
+  "homepage": "https://github.com/gfloresuth/repl4devs#readme"
+}
